@@ -4,7 +4,7 @@ metadata:
   name: techtrends
   namespace: {{ .Values.namespace.name }}
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   ports:
   - port: {{ .Values.service.port }}
     targetPort: 3111
