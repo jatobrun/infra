@@ -10,8 +10,8 @@ host: 34.148.41.116
 
 resources:
   requests:
-    memory: 90Mi
+    memory: 100Mi
     cpu: 300m
   limits:
-    memory: 128Mi
+    memory: 200Mi
     cpu: 500m
