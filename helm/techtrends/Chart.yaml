@@ -1,0 +1,10 @@
+apiVersion: v1
+name: techtrends
+description: Install techtrends project for udacity nanodegree
+keywords:
+- python
+- techtrends 
+version: 1.0.0
+maintainers:
+- name: jatobrun 
+  email: jatobrun@espol.edu.ec
