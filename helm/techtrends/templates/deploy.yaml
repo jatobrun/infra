@@ -26,13 +26,13 @@ spec:
           httpGet:
             host: {{ .Values.host }}
             path: {{ .Values.readinessProbe.path }}
-            port: {{ .Values.containerPort }}
+            port: {{ .Values.service.port }}
 
         livenessProbe:
           httpGet:
             host: {{ .Values.host }}
             path: {{ .Values.livenessProbe.path }}
-            port: {{ .Values.containerPort }}
+            port: {{ .Values.service.port }}
 
         resources:
           requests:
