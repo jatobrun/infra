@@ -6,6 +6,8 @@ service:
 
 replicaCount: 3
 
+host: 34.148.41.116
+
 resources:
   requests:
     memory: 90Mi
